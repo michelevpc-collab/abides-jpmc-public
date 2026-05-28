@@ -1,0 +1,18 @@
+[20718] INFO abides Simulation Start Time: 2026-05-28 14:08:23.092796
+[20718] INFO abides_core.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[20718] INFO abides_core.kernel Event Queue elapsed: 0:00:00.516395, messages: 16,841, messages per second: 32612.6
+[20718] INFO abides_core.kernel Mean ending value by agent type:
+[20718] INFO abides_core.kernel NoiseAgent: -26
+[20718] INFO abides_core.kernel ValueAgent: 5
+[20718] INFO abides_core.kernel AdaptivePOVMarketMakerAgent: 0
+[20718] INFO abides_core.kernel MomentumAgent: 0
+[20718] INFO abides_core.kernel TrendFollowerAgent: 0
+[20718] INFO abides_core.kernel Simulation ending!
+[20718] INFO abides Simulation End Time: 2026-05-28 14:08:24.251324
+[20718] INFO abides Time taken to run simulation: 0:00:01.158528
+
+╔═══════════════════════════════════════════════════════════╗
+║ ABIDES: Agent-Based Interactive Discrete Event Simulation ║
+╚═══════════════════════════════════════════════════════════╝
+
+[TREND_FOLLOWER_AGENT] Final holdings in ABM: 0, cash=10000000

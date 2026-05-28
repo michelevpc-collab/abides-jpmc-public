@@ -112,7 +112,7 @@ def build_config(
     SIGMA_N = r_bar / 100  # observation noise variance
 
     # date&time
-    DATE = int(pd.to_datetime(date).to_datetime64())
+    DATE = int(pd.to_datetime(date).value)  # Convert to nanoseconds timestamp
     MKT_OPEN = DATE + str_to_ns("09:30:00")
     MKT_CLOSE = DATE + str_to_ns(end_time)
     # These times needed for distribution of arrival times of Noise Agents

@@ -1,0 +1,16 @@
+EventTime,EventType,Event
+0.0,AGENT_TYPE,NoiseAgent
+0.0,STARTING_CASH,10000000
+1.6124832e+18,HOLDINGS_UPDATED,{'CASH': 10000000}
+1.6124832344146358e+18,BID_DEPTH,[]
+1.6124832344146358e+18,ASK_DEPTH,"[(100011, 100)]"
+1.6124832344146358e+18,IMBALANCE,"[0, 100]"
+1.6124832344146358e+18,ORDER_SUBMITTED,"{'agent_id': 698, 'time_placed': '2021-02-05 00:00:34', 'symbol': 'ABM', 'quantity': 100, 'side': <Side.BID: 'BID'>, 'order_id': 8, 'fill_price': None, 'tag': None, 'limit_price': 100011, 'is_hidden': False, 'is_price_to_comply': False, 'insert_by_id': False, 'is_post_only': False}"
+1.6124832344170893e+18,ORDER_EXECUTED,"{'agent_id': 698, 'time_placed': '2021-02-05 00:00:34', 'symbol': 'ABM', 'quantity': 100, 'side': <Side.BID: 'BID'>, 'order_id': 8, 'fill_price': 100011, 'tag': None, 'limit_price': 100011, 'is_hidden': False, 'is_price_to_comply': False, 'insert_by_id': False, 'is_post_only': False}"
+1.6124832344170893e+18,HOLDINGS_UPDATED,"{'CASH': -1100, 'ABM': 100}"
+1.6124832344170893e+18,FINAL_HOLDINGS,"{ ABM: 100, CASH: -1100 }"
+1.6124832344170893e+18,FINAL_CASH_POSITION,-1100
+1.6124832344170893e+18,MARK_TO_MARKET,100 ABM @ 100011 == 10001100
+1.6124832344170893e+18,MARKED_TO_MARKET,10000000
+1.6124832344170893e+18,ENDING_CASH,10000000
+1.6124832344170893e+18,FINAL_VALUATION,-0.9901089
